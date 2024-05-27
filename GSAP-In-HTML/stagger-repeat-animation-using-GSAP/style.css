@@ -1,0 +1,48 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+/* Body Styling */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #ffffff79;
+  background-color: black;
+}
+
+header {
+  background-color: rgba(36, 30, 30, 0.685);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 5px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a,
+nav ul li {
+  color: #ffffff79;
+  margin-bottom: 5px;
+  text-decoration: solid;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #03a9f4;
+}
+
+#box {
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
+  border-radius: 100%;
+}
