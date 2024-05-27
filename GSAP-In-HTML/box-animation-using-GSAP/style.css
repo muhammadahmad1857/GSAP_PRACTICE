@@ -1,0 +1,50 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+/* Body Styling */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 5px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a,
+nav ul li {
+  color: #ffff;
+  margin-bottom: 5px;
+  text-decoration: solid;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #03a9f4;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #03a9f4;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
