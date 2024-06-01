@@ -1,0 +1,25 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+/* Body Styling */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+body {
+  overflow-x: hidden;
+}
+#string {
+  height: 200px;
+  width: 100%;
+}
+svg {
+  cursor: move;
+}
