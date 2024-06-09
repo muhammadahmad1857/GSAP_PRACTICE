@@ -21,7 +21,7 @@ Welcome to the comprehensive guide for using GSAP (GreenSock Animation Platform)
    - [Animating Next.js Components](#animating-nextjs-components)
    - [Practice Examples](#practice-examples-nextjs)
    - [Project Ideas](#project-ideas-nextjs)
-5. [Resources and Further Reading](#resources-and-further-reading)
+5. [Resources and Further Readings](#resources-and-further-reading)
 
 ## Introduction to GSAP
 
