@@ -11,34 +11,30 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: rgb(20, 18, 18);
   color: #ffffff79;
 }
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: inherit; /* Background of the scrollbar track */
+  border-radius: 10px; /* Round edges */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovering */
+}
+
 body {
   overflow-x: hidden;
-}
-header {
-  background-color: #2220209c;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  margin: 5px;
-}
-nav ul {
-  list-style: none;
-}
-nav ul li a,
-nav ul li {
-  color: #ffffff79;
-  margin-bottom: 5px;
-  text-decoration: solid;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-  color: #03a9f4;
 }
 
 #page1 {
@@ -60,14 +56,18 @@ nav ul li a:hover {
   flex-direction: column;
   gap: 50px; */
   color: black;
-  padding: 20px 0px;
 }
 
-#page2 h1 {
+#page2 h1,
+#page3 h1 {
   font-size: 30vw;
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
+}
+#page2::-webkit-scrollbar-track {
+  background: rgb(39, 196, 248); /* Background of the scrollbar track */
+  border-radius: 10px; /* Round edges */
 }
 /*
 #page2 h2 {
@@ -92,6 +92,10 @@ nav ul li a:hover {
   /* display: flex;
   align-items: center;
   justify-content: center; */
+}
+#page3::-webkit-scrollbar-track {
+  background: black; /* Background of the scrollbar track */
+  border-radius: 10px; /* Round edges */
 }
 /* 
 #box {

@@ -90,11 +90,24 @@
 // making an animation with pin. whenever we use pin we always trigger the parent of element
 
 gsap.to("#page2 h1", {
-  transform: "translateX(-110%)",
+  transform: "translateX(-110vw)",
   scrollTrigger: {
     trigger: "#page2",
     scroller: "body",
-    markers: true,
+    // markers: true,
+    start: "top 0%",
+    end: "top -100%",
+    scrub: 2,
+    pin: true,
+  },
+});
+
+gsap.from("#page3 h1", {
+  transform: "translateX(110vw)",
+  scrollTrigger: {
+    trigger: "#page3",
+    scroller: "body",
+    // markers: true,
     start: "top 0%",
     end: "top -100%",
     scrub: 2,
