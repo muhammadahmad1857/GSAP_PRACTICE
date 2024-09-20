@@ -88,5 +88,4 @@ gsap.from("#box2", {
   scale: 0.5,
   borderRadius: "100%", // we have to give it's value in qoutes becuse it has a special character
   repeat: -1, // we use it to make animation repeating infinite time,
-
 });

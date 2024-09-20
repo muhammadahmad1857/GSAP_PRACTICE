@@ -39,7 +39,9 @@ nav ul li a:hover {
   text-decoration: underline;
   color: #03a9f4;
 }
-
+.main {
+  width: 100vw;
+}
 .box {
   width: 200px;
   height: 200px;
